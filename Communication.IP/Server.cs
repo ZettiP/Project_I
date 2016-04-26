@@ -53,6 +53,10 @@ namespace Communication.IP
             }
         }
 
+        /// <summary>
+        /// decides which actions should be executed depending on the message
+        /// </summary>
+        /// <param name="message"></param>
         private void ProceedMessage(int message)
         {
             switch ((Messages)message)
