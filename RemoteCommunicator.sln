@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication.IP", "Communication.IP\Communication.IP.csproj", "{1BBFA010-0153-4DE8-9070-4396773BBBF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication.IP.Test", "Communication.IP.Test\Communication.IP.Test.csproj", "{6F06E6DA-5037-451A-A0EC-E1D7B228E2C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteCommunicator.WindowsPhone", "RemoteCommunicator\RemoteCommunicator.WindowsPhone.csproj", "{EB759FF4-2C8C-4F9D-A2D4-939E96EE4A5C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteCommunicator.Android", "RemoteCommunicator.Android\RemoteCommunicator.Android.csproj", "{E52EC204-1C65-484D-90E4-54F9B740F3D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication.IP", "..\Communication.IP\Communication.IP.csproj", "{1BBFA010-0153-4DE8-9070-4396773BBBF2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Communication.IP.Test", "..\Communication.IP.Test\Communication.IP.Test.csproj", "{6F06E6DA-5037-451A-A0EC-E1D7B228E2C1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteCommunicator.WindowsPhone", "..\RemoteCommunicator\RemoteCommunicator.WindowsPhone.csproj", "{EB759FF4-2C8C-4F9D-A2D4-939E96EE4A5C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{41869A43-BFD1-4E92-881E-DD2CE54C4293}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,24 +23,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|ARM.Build.0 = Debug|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|ARM.Deploy.0 = Debug|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|x86.Build.0 = Debug|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|x86.Deploy.0 = Debug|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|ARM.ActiveCfg = Release|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|ARM.Build.0 = Release|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|ARM.Deploy.0 = Release|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|x86.ActiveCfg = Release|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|x86.Build.0 = Release|Any CPU
-		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|x86.Deploy.0 = Release|Any CPU
 		{1BBFA010-0153-4DE8-9070-4396773BBBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1BBFA010-0153-4DE8-9070-4396773BBBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BBFA010-0153-4DE8-9070-4396773BBBF2}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -81,8 +65,30 @@ Global
 		{EB759FF4-2C8C-4F9D-A2D4-939E96EE4A5C}.Release|x86.ActiveCfg = Release|x86
 		{EB759FF4-2C8C-4F9D-A2D4-939E96EE4A5C}.Release|x86.Build.0 = Release|x86
 		{EB759FF4-2C8C-4F9D-A2D4-939E96EE4A5C}.Release|x86.Deploy.0 = Release|x86
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|ARM.Build.0 = Debug|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|ARM.Deploy.0 = Debug|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|x86.Build.0 = Debug|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Debug|x86.Deploy.0 = Debug|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|ARM.ActiveCfg = Release|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|ARM.Build.0 = Release|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|ARM.Deploy.0 = Release|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|x86.ActiveCfg = Release|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|x86.Build.0 = Release|Any CPU
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2}.Release|x86.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EB759FF4-2C8C-4F9D-A2D4-939E96EE4A5C} = {41869A43-BFD1-4E92-881E-DD2CE54C4293}
+		{E52EC204-1C65-484D-90E4-54F9B740F3D2} = {41869A43-BFD1-4E92-881E-DD2CE54C4293}
 	EndGlobalSection
 EndGlobal
