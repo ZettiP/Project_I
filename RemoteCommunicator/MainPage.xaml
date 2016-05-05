@@ -5,10 +5,30 @@
     xmlns:local="using:RemoteCommunicator"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    <Grid>
-
-    </Grid>
+    mc:Ignorable="d">
+    <Page.Resources>
+        <ResourceDictionary Source="WPStyles.xaml"/>
+    </Page.Resources>
+    <StackPanel>
+        <TextBlock HorizontalAlignment="Center" FontSize="35">Remote Communicator</TextBlock>
+        <Grid HorizontalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <!-- Add as much rows as we need in order to keep 2*n entrys -->
+            </Grid.RowDefinitions>
+            <Button Style="{StaticResource MainStyle}"  Grid.Row="0" Grid.Column="1" Content="Shutdown"/>
+            <Button Style="{StaticResource MainStyle}"  Grid.Row="0" Grid.Column="1" Content="Restart"/>
+            <Button Style="{StaticResource MainStyle}" Grid.Row="1" Grid.Column="0" Content="Play"/>
+            <Button Style="{StaticResource MainStyle}" Grid.Row="1" Grid.Column="1" Content="Pause"/>
+            <Button Style="{StaticResource MainStyle}" Grid.Row="2" Grid.Column="0" Content="VolumeUp"/>
+            <Button Style="{StaticResource MainStyle}" Grid.Row="2" Grid.Column="1" Content="VolumeDown"/>
+        </Grid>
+    </StackPanel>
 </Page>
+
